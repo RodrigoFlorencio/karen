@@ -1,0 +1,272 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.topo {
+	background-color: rgba(10,10,10,0.7);
+	height: 110px;
+	width: 100%; 
+}
+.topoint {
+	width: 1000px;
+	margin: auto;
+	display: flex;
+}
+.logo {
+	width: 1000px;
+	margin: auto;
+	float: left;
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	color: #fff;
+}
+
+/* Menu Mobile */
+
+.wrap-menu {
+	display: none;
+}
+
+
+
+
+/*---------------------------------------------------------------------*/
+
+
+.menu {
+	width: 1000px;
+	float: right;
+	color: white;
+	margin-left: 240px;
+}
+.menu ul {
+	list-style: none;
+}
+.menu li {
+	font-family: arial;
+	float: left;
+	margin-right: 25px;
+	line-height: 95px;
+}
+.menu a {
+	text-decoration: none;
+	color: white;
+}
+section {
+	width: 100%;
+	margin-top: 50px;
+}
+.form {
+	width: 1000px;
+	margin: auto;
+	color: black;
+}
+h3 {
+	font-family: 'Vibes', cursive;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.input {
+	border: 1px solid black;
+	padding: 10px;
+	width: 300px;
+}
+textarea {
+	border: 1px solid black;
+}
+.btn {
+	width: 93px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+
+
+
+@media only screen and (max-width: 852px) {
+
+	.topo {
+		background-color: rgba(10,10,10,0.7);
+		height: 110px;
+		width: 100%; 
+	}
+	.topoint {
+		width: 650px;
+		margin: auto;
+		display: flex;
+	}
+
+	.menu {
+		float: right;
+		color: white;
+		margin-left: 20px;
+	}
+	.menu ul {
+		list-style: none;
+	}
+	.menu li {
+		font-family: arial;
+		float: left;
+		font-size: 15px;
+		margin-right: 11px;
+		line-height: 61px;
+	}
+
+}
+
+@media only screen and (max-width: 769px) {
+
+	.topo {
+		background-color: rgba(10,10,10,0.7);
+		height: 110px;
+		width: 100%; 
+	}
+
+	.topoint {
+		width: 560px;
+		margin: auto;
+		display: flex;
+	}
+
+	.menu {
+		float: right;
+		color: white;
+		margin-left: 20px;
+	}
+	.menu ul {
+		list-style: none;
+	}
+	.menu li {
+		font-family: arial;
+		float: left;
+		font-size: 13px;
+    	margin-right: 9px;
+    	line-height: 71px;
+	}
+
+	.form {
+		width: 80%;
+		margin: auto;
+		color: black;
+	}
+}
+
+@media only screen and (max-width: 539px) {
+
+	.topoint {
+		width: 435px;
+		margin: auto;
+		display: flex;
+	}
+	.logo {
+		width: 1000px;
+		margin: auto;
+		float: left;
+		font-family: 'Dancing Script', cursive;
+		font-size: 80px;
+		color: #fff;
+	}
+	.wrap-menu {
+		display: block;
+	}
+	.menu {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 425px) {
+
+	.topo {
+		background-color: rgba(10,10,10,0.7);
+		height: 110px;
+		width: 100%; 
+	}
+
+	.topoint {
+		width: 350px;
+		margin: auto;
+		display: flex;
+	}
+	.logo {
+		width: 1000px;
+		margin: auto;
+		float: left;
+		font-family: 'Dancing Script', cursive;
+		font-size: 60px;
+		color: #fff;
+	}
+
+	.contato {
+		margin-top: -20vh;
+		color: white;
+	    float: right;
+	    margin-right: 46px;
+	}
+
+	.contato ul li {
+		float: left;
+	    font-size: 20px;
+	    padding-top: 17vh;
+    	margin-right: -4px;
+	    list-style: none;
+	    text-decoration: none;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+
+	.topo {
+		background-color: rgba(10,10,10,0.7);
+		height: 110px;
+		width: 100%; 
+	}
+	.topoint {
+		width: 300px;
+		margin: auto;
+		display: flex;
+	}
+	.social-text {
+		color: black;
+		text-align: center;
+		margin-top: 85px;
+		margin-bottom: 40px;
+		font-family: 'Dancing Script', cursive;
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 320px) {
+
+	body {
+		width: 100%;
+	}
+	.topo {
+		background-color: rgba(10,10,10,0.7);
+		height: 110px;
+		width: 100%; 
+	}
+	.topoint {
+		width: 270px;
+		margin: auto;
+		display: flex;
+	}
+	h3 {
+		font-size: 23px;
+		margin-bottom: 20px;
+	}
+	.form {
+		width: 310px;
+	}
+	.input {
+		border: 1px solid black;
+		padding: 10px;
+		width: 250px;
+	}
+	textarea {
+		width: 250px;
+	}
+}
